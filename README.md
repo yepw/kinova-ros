@@ -1,3 +1,16 @@
+# Quick Start
+1. Use an Ethernet cable to directly connect a Jaco arm with a computer
+2. Set up a static ip on the computer.
+
+<img src="./imgs/static_ip.png" width="400">
+
+3. Bring up the robot
+```
+roslaunch kinova_bringup kinova_robot.launch kinova_robotType:=j2s7s300
+```
+4. Follow the [Joint position control](#joint-position-control) or [Velocity control for joint space and Cartesian space](#velocity-control-for-joint-space-and-cartesian-space) section below to control the robot
+
+
 # Table of Contents 
 - [Important](#important) 
 - [Supported versions](#supported-versions)
